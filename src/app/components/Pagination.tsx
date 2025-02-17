@@ -12,6 +12,7 @@ export const Pagination = ({ totalPages }: PaginationProps) => {
   console.log('Current page:', page);  // Debugging: Check if page state changes
 
   const handlePageChange = (newPage: number) => {
+    console.log('Changing page to:', newPage);  // Debugging
     if (newPage >= 1 && newPage <= totalPages) {
       setPage(newPage);  // Update page in the store
     }

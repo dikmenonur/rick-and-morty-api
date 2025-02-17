@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react'; // Import useState
+import { useState } from 'react';
+import { useStore } from '../store/useStore'; // useStore hook'unu ekleyin
 import { useCharacters } from '../hooks/useCharacters';
-import UserDetailsPopup from './UserDetailsPopup';  // Import the popup component
+import UserDetailsPopup from './UserDetailsPopup';
 
 interface CharacterListProps {
   searchTerm: string;
@@ -11,7 +12,7 @@ interface CharacterListProps {
 }
 
 export const CharacterList = ({ searchTerm, status, gender }: CharacterListProps) => {
-  const page = 1;  // Or use state if you want pagination
+  const { page } = useStore();  // Or use state if you want pagination
   const { data, isLoading, isError } = useCharacters(page, status, gender, searchTerm);
   const [selectedUserId, setSelectedUserId] = useState<number | null>(null);  // Fix: Set null as default for number | null
 

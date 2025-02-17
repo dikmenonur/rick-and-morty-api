@@ -3,7 +3,7 @@ import { create } from 'zustand';
 interface StoreState {
   status: string;
   gender: string;
-  page: number;  
+  page: number,
   totalPages: number; 
   characterNames: string[]; 
   searchTerm: string; // Add searchTerm to the state

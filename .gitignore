@@ -45,3 +45,6 @@ next-env.d.ts
 /.next/
 /out/
 /build/
+
+# Visual Studio files
+.vs/
