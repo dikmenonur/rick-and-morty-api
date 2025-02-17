@@ -117,7 +117,3 @@ Bu proje, **ESLint** ve **Prettier** kullanarak kodun belirlenen kurallara uygun
 ## Sonuç
 
 Bu proje, modern bir React uygulamasında SSR, API entegrasyonu, state yönetimi ve UI bileşenleri kullanımını gösteren kapsamlı bir örnek sunmaktadır. Filtreleme işlemleri ve veri yönetimi kullanıcı dostu bir deneyim sunmak için optimize edilmiştir.
-
----
-
-Bu Markdown dosyasını GitHub'da `README.md` olarak kullanabilirsiniz. Projenizin dökümantasyonunu daha anlaşılır ve profesyonel hale getirecektir. 🚀
