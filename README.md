@@ -4,7 +4,7 @@ Bu proje, Rick and Morty API kullanarak karakterlerin listelendiği, `status` ve
 
 ## Teknolojiler
 
-- **Next.js 14**: App folder yapısı ve SSR desteği.
+- **Next.js 15**: App folder yapısı ve SSR desteği.
 - **Tailwind CSS**: Modern ve hızlı CSS framework.
 - **TypeScript**: Statik tip denetimi.
 - **Zustand**: Global state yönetimi.
